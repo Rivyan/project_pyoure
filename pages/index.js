@@ -1,18 +1,22 @@
 import styles from "./index.module.css";
-
-function Heading(props) {
-  return (
-    <div>
-      <h1 className={styles.green}>{props.heading_text}</h1>
-    </div>
-  );
-}
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      <Heading heading_text="Heading" />
-      <h1 className="red">Index.js</h1>
+      <h1>Welcome to pYoure Photos!</h1>
+      <ul>
+        <li>
+          <Link href="./moments">
+            <a>Moments</a>
+          </Link>
+        </li>
+        <li>
+          <Link href="./women">
+            <a>Women</a>
+          </Link>
+        </li>
+      </ul>
     </div>
   );
 }
