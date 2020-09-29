@@ -1,6 +1,7 @@
-#Project pYoure
+# Project pYoure
 
-##Product Outline
+## Product Outline
+
 In this project I am building a portfolio site for a client. The main theme is photography, showcasing some of her work.
 
 The main idea is to split the site into to different side: Moments for family style shooting and Women for lone female style shooting.
