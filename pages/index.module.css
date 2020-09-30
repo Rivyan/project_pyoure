@@ -1,3 +1,68 @@
-h1.green {
-  color: green;
+.background {
+  background-color: #f0f5f9;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
+
+.title {
+  color: #52616b;
+  font-size: 5rem;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.imageRow {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.container .momentsButton {
+  background: transparent;
+  color: #52616b;
+  width: 24rem;
+  height: 13.5rem;
+  margin: 5%;
+  font-size: 3rem;
+  transition: background 1s linear;
+  transition: background-color 1s linear;
+  border-color: transparent;
+}
+
+.momentsButton:hover {
+  color: transparent;
+  background: transparent;
+  background: url("/moments_main_button.jpg") no-repeat;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 24rem;
+  height: 13.5rem;
+  margin: 5%;
+  border-color: black;
+}
+
+.container .womenButton {
+  background: transparent;
+  background-color: transparent;
+  color: #52616b;
+  width: 24rem;
+  height: 13.5rem;
+  margin: 5%;
+  font-size: 3rem;
+  transition: background 1s linear;
+  transition: background-color 1s linear;
+  border-color: transparent;
+}
+
+.womenButton:hover {
+  color: transparent;
+  background: url("/women_main_button.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 24rem;
+  height: 13.5rem;
+  margin: 5%;
+  border-color: black;
 }
