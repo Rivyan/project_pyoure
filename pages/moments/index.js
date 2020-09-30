@@ -1,32 +1,10 @@
 import styles from "./index.module.css";
-import Link from "next/link";
+import Navigation from "./navbar";
 
-export default () => {
+export default function Index() {
   return (
     <div>
-      <h1>Welcome to Moments</h1>
-      <ul>
-        <li>
-          <Link href="/moments/about">
-            <a>About</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/moments/contact">
-            <a>Contact</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/moments/portfolio">
-            <a>Portfolio</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/moments/prices">
-            <a>Prices</a>
-          </Link>
-        </li>
-      </ul>
+      <Navigation />
     </div>
   );
-};
+}

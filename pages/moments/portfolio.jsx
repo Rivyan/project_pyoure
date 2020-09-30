@@ -1,7 +1,10 @@
-export default function () {
+import Navigation from "./navbar";
+
+export default function Portfolio() {
   return (
     <div>
-      <h1>Welcome to Moments/Portfolio!</h1>
+      <Navigation />
+      <h1>Hello from Moments/Portfolio</h1>
     </div>
   );
 }

@@ -10,7 +10,8 @@
   color: #52616b;
   font-size: 5rem;
   padding-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 2%;
+  font-family: "Patrick Hand", cursive;
 }
 
 .imageRow {
@@ -27,6 +28,7 @@
   transition: background 1s linear;
   transition: background-color 1s linear;
   border-color: transparent;
+  font-family: "Patrick Hand", cursive;
 }
 
 .momentsButton:hover {
@@ -53,6 +55,7 @@
   transition: background 1s linear;
   transition: background-color 1s linear;
   border-color: transparent;
+  font-family: "Patrick Hand", cursive;
 }
 
 .womenButton:hover {

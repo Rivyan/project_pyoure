@@ -1,7 +1,10 @@
-export default function () {
+import Navigation from "./navbar";
+
+export default function About() {
   return (
     <div>
-      <h1>Welcome to Moments/About!</h1>
+      <Navigation />
+      <h1>Hello from Women/About</h1>
     </div>
   );
 }

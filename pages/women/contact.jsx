@@ -1,7 +1,10 @@
-export default function () {
+import Navigation from "./navbar";
+
+export default function Contact() {
   return (
     <div>
-      <h1>Welcome to Moments/Contact!</h1>
+      <Navigation />
+      <h1>Hello from Women/Contact</h1>
     </div>
   );
 }
