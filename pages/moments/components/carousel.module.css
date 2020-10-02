@@ -1,0 +1,9 @@
+.carouselDiv {
+  margin: 0% 15%;
+}
+
+.carouselImage {
+  width: 100%;
+  margin: auto;
+  display: block;
+}

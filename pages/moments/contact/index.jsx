@@ -1,4 +1,4 @@
-import Navigation from "./navbar";
+import Navigation from "../components/navbar";
 
 export default function Contact() {
   return (
