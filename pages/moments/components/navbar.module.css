@@ -1,0 +1,9 @@
+.logo {
+  font-family: "Yellowtail", cursive;
+  font-size: 2rem;
+}
+
+.middleLinks {
+  display: inline-block;
+  float: none;
+}

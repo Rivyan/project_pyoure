@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
           <link
             href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
-            rel="preload"
+            // rel="preload"
             as="font"
             crossOrigin=""
           />

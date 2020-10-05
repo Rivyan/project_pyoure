@@ -1,0 +1,10 @@
+.galleryContainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.smallImage {
+  width: 300px;
+  margin-bottom: 10%;
+}

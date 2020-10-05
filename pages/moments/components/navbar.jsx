@@ -1,11 +1,14 @@
 import Link from "next/link";
 import { Navbar, Nav } from "react-bootstrap";
+import styles from "./navbar.module.css";
 
 export default function NavigationBar() {
   return (
     <div>
       <Navbar bg="light">
-        <Navbar.Brand href="/moments">pYoure Moments</Navbar.Brand>
+        <Navbar.Brand href="/moments" className={styles.logo}>
+          pYOUre Moments
+        </Navbar.Brand>
         <Nav className="m-auto">
           <Link href="/moments/about" passHref>
             <Nav.Link>About</Nav.Link>
