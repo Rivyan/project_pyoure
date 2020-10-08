@@ -7,16 +7,13 @@ import classNames from "classnames/bind";
 let cx = classNames.bind(styles);
 
 export default function Home() {
-  // React states for handling the background of the landing page
   const [momentsBackground, setMomentsBackground] = React.useState(false);
   const [womenBackground, setWomenBackground] = React.useState(false);
-  // Classnames library to add classes based on the State of the hovered buttons
   let divClass = cx({
     background: true,
     momentsBackground: momentsBackground,
     womenBackground: womenBackground,
   });
-  // Functions to handle the hover state for both buttons
   function momentsHover(e) {
     setMomentsBackground(e);
   }
@@ -26,13 +23,11 @@ export default function Home() {
 
   return (
     <div className={divClass}>
-      {/* Header section */}
       <Header>
         <title>pYoure Photography</title>
       </Header>
       {/* Main container for the title and the buttons for the sub sites */}
       <Container fluid>
-        {/* Title row */}
         <Row>
           <Col>
             <div className={styles.title}>
@@ -41,7 +36,6 @@ export default function Home() {
             </div>
           </Col>
         </Row>
-        {/* Button row */}
         <Row className={styles.buttonRow}>
           <Col>
             {/* Moments button */}

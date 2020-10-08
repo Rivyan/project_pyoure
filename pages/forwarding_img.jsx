@@ -1,6 +1,5 @@
 import styles from "./forwarding_img.module.css";
 import Link from "next/link";
-import { Button } from "react-bootstrap";
 
 export default function Forwarding_image(props) {
   return (

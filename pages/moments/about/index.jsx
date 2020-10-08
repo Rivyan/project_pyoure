@@ -1,10 +1,12 @@
+import { Container } from "react-bootstrap";
 import Navigation from "../components/navbar";
+import styles from "../index.module.scss";
 
 export default function About() {
   return (
     <div>
       <Navigation />
-      <h1>Hello from Moments/About</h1>
+      <Container fluid></Container>
     </div>
   );
 }

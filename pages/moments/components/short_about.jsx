@@ -1,25 +1,26 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
-import styles from "./short-about.module.css";
+import styles from "./short-about.module.scss";
 
 export default function ShortAbout() {
   return (
     <div>
-      <Container fluid>
+      <Container fluid className={styles.aboutContainer}>
         <Row>
-          <Col className={styles.welcomeRow}>
-            <h1>Hello!</h1>
+          <Col className={styles.titleRow}>
+            <h1>About</h1>
           </Col>
         </Row>
         <Row className={styles.aboutRow}>
-          <Col>
+          <Col xs={12} md={5} l={4} align="center">
             <Image
               className={styles.aboutImage}
               src="viki_about.jpg"
               alt="Markus Viktoria profil foto"
               rounded
+              fluid
             />
           </Col>
-          <Col>
+          <Col xs={12} md={7} l={8}>
             <p className={styles.aboutText}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse vel pharetra dolor, at facilisis diam. Nam nec justo
