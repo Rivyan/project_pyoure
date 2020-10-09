@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Navigation from "../components/navbar";
 import styles from "./index.module.scss";
+import Footer from "../footer";
 
 export default function About() {
   return (
@@ -8,7 +9,12 @@ export default function About() {
       <Navigation />
       <Container fluid className={styles.aboutContainer}>
         <Row>
-          <Col xs={12} s={6} md={4} align="center">
+          <Col>
+            <h1 className={styles.aboutTitle}>About welcome</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col xs={12} s={8} md={4} l={3} align="center">
             <img
               className={styles.profilePhoto}
               src="/viki_about.jpg"
@@ -17,7 +23,7 @@ export default function About() {
           </Col>
           <Col>
             <div className={styles.aboutText}>
-              <h1>About welcome</h1>
+              <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
                 lobortis eleifend pellentesque. Proin efficitur sed tellus vel
@@ -41,6 +47,7 @@ export default function About() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </div>
   );
 }

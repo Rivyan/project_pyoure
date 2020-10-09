@@ -1,12 +1,30 @@
 .aboutContainer {
   margin: 5% auto;
   padding: 0% 5%;
+  @media (min-width: 768px) {
+    padding: 0% 8%;
+  }
+  @media (min-width: 992px) {
+    // padding: 0% 15%;
+  }
+}
+
+.aboutTitle {
+  margin-bottom: 0.5em;
 }
 
 .profilePhoto {
   width: 100%;
+  margin-bottom: 1em;
 }
 
-.aboutText h1 {
-  padding-top: 0.5em;
+.aboutText {
+  @media (min-width: 768px) {
+    // padding-right: 2em;
+    margin-left: 1em;
+  }
+  @media (min-width: 992px) {
+    // padding-right: 10em;
+    margin-left: 1em;
+  }
 }

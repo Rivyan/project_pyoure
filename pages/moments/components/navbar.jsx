@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Navbar, Nav } from "react-bootstrap";
-import styles from "./navbar.module.css";
+import styles from "./navbar.module.scss";
 
 export default function NavigationBar() {
   return (

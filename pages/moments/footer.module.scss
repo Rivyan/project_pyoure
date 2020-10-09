@@ -1,0 +1,13 @@
+.footerDiv {
+  position: sticky;
+  margin: 5%;
+  margin-top: 15%;
+  @media (min-width: 40em) {
+    padding: 5% 15% 0%;
+  }
+}
+
+.footerText {
+  font-size: 0.8em;
+  color: gray;
+}

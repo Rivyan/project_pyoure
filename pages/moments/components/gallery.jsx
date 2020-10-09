@@ -30,6 +30,7 @@ export default function Gallery(props) {
             {/* Array to render the GalleryImage component in the gallery for each image in the public/moments_gallery folder */}
             {[...Array(props.imagesCount)].map((e, i) => (
               <GalleryImage
+                key={"moments_gallery/test_img_" + (i + 1) + ".jpg"}
                 imageID={i + 1}
                 imageSrc={"moments_gallery/test_img_" + (i + 1) + ".jpg"}
                 clickHandle={openLightBoxOnSlide}

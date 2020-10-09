@@ -12,10 +12,14 @@ class MyDocument extends Document {
         <Head>
           <link
             href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
-            // rel="preload"
+            rel="preload"
             as="font"
             crossOrigin=""
           />
+          <script
+            src="https://kit.fontawesome.com/0e7fd8b0b4.js"
+            crossorigin="anonymous"
+          ></script>
         </Head>
         <body>
           <Main />
