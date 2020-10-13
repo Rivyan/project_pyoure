@@ -1,19 +1,15 @@
-import styles from "./index.module.css";
-import Forwarding_image from "./forwarding_img";
 import { Container, Row, Col } from "react-bootstrap";
 import Header from "next/head";
 import classNames from "classnames/bind";
+import Forwarding_image from "./forwarding_img";
+import styles from "./index.module.scss";
 
 let cx = classNames.bind(styles);
 
 export default function Home() {
   const [momentsBackground, setMomentsBackground] = React.useState(false);
   const [womenBackground, setWomenBackground] = React.useState(false);
-  let divClass = cx({
-    background: true,
-    momentsBackground: momentsBackground,
-    womenBackground: womenBackground,
-  });
+
   function momentsHover(e) {
     setMomentsBackground(e);
   }
@@ -21,24 +17,29 @@ export default function Home() {
     setWomenBackground(e);
   }
 
+  let divClass = cx({
+    background: true,
+    momentsBackground: momentsBackground,
+    womenBackground: womenBackground,
+  });
+
   return (
     <div className={divClass}>
       <Header>
-        <title>pYoure Photography</title>
+        <title>pYOUre Photography</title>
       </Header>
       {/* Main container for the title and the buttons for the sub sites */}
       <Container fluid>
         <Row>
           <Col>
             <div className={styles.title}>
-              <p>pYoure</p>
+              <p>pYOUre</p>
               <p>Photography</p>
             </div>
           </Col>
         </Row>
         <Row className={styles.buttonRow}>
           <Col>
-            {/* Moments button */}
             <Forwarding_image
               hoverFunction={momentsHover}
               address="./moments"
@@ -46,7 +47,6 @@ export default function Home() {
             />
           </Col>
           <Col>
-            {/*  Women button */}
             <Forwarding_image
               hoverFunction={womenHover}
               address="./women"
