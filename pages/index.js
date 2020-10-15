@@ -33,20 +33,23 @@ export default function Home() {
         <Row>
           <Col>
             <div className={styles.title}>
-              <p>pYOUre</p>
-              <p>Photography</p>
+              <p>
+                pYOUre
+                <br />
+                Photography
+              </p>
             </div>
           </Col>
         </Row>
         <Row className={styles.buttonRow}>
-          <Col>
+          <Col className={styles.buttonCol}>
             <Forwarding_image
               hoverFunction={momentsHover}
               address="./moments"
               name="Moments"
             />
           </Col>
-          <Col>
+          <Col className={styles.buttonCol}>
             <Forwarding_image
               hoverFunction={womenHover}
               address="./women"

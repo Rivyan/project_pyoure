@@ -15,35 +15,35 @@ export default function IndexCarousel() {
           <Carousel.Item>
             <img
               className={styles.carouselImage}
-              src="moments_carousel/test_img_1.jpg"
+              src="moments_carousel/carousel_img_1.png"
               alt="first moments image"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className={styles.carouselImage}
-              src="moments_carousel/test_img_2.jpg"
+              src="moments_carousel/carousel_img_2.png"
               alt="second moments image"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className={styles.carouselImage}
-              src="moments_carousel/test_img_3.jpg"
+              src="moments_carousel/carousel_img_3.png"
               alt="third moments image"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className={styles.carouselImage}
-              src="moments_carousel/test_img_4.jpg"
+              src="moments_carousel/carousel_img_4.png"
               alt="fourth moments image"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className={styles.carouselImage}
-              src="moments_carousel/test_img_5.jpg"
+              src="moments_carousel/carousel_img_5.png"
               alt="fifth moments image"
             />
           </Carousel.Item>

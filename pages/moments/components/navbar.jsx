@@ -6,7 +6,7 @@ export default function NavigationBar() {
   return (
     <section id="momentsNavbar">
       <div>
-        <Navbar collapseOnSelect expand="lg" bg="light">
+        <Navbar className={styles.navBar} collapseOnSelect expand="lg">
           <Link href="/moments" passHref>
             <Navbar.Brand href="/moments" className={styles.logo}>
               pYOUre Moments

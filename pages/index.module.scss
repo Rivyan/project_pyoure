@@ -1,18 +1,19 @@
-// .title {
-//   color: #52616b;
-//   font-size: 3rem;
-//   position: relative;
-//   bottom: 30%;
-//   padding-bottom: 2%;
-//   font-family: "Yellowtail", cursive;
-//   text-align: center;
-// }
-
 .buttonRow {
   padding-left: 15%;
   padding-right: 15%;
   text-align: center;
 }
+
+.buttonCol {
+  padding-top: 5%;
+  padding-bottom: 15%;
+}
+
+//
+//
+// BACKGROUND
+//
+//
 
 .background {
   position: relative;
@@ -24,7 +25,7 @@
 }
 
 .background::before {
-  background: url("/moments_main_button.jpg");
+  background: url("/moments_main_button.png");
   content: "";
   background-size: cover;
   position: absolute;
@@ -33,35 +34,63 @@
   bottom: 0px;
   left: 0px;
   opacity: 0;
-  transition: opacity 0.5s, background 0s 1s;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: opacity 0.5s, background 0s 2s;
 }
 
 .background p {
   color: #52616b;
-  font-size: 3rem;
+  font-size: 4rem;
   position: relative;
-  bottom: 30%;
-  padding-bottom: 0%;
+  bottom: 50px;
   font-family: "Yellowtail", cursive;
   text-align: center;
 }
 
-.momentsBackground::before {
-  opacity: 0.75;
-  transition: opacity 0.5s 0.5s;
-  content: "";
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
+.background a {
+  color: black;
+  font-size: 2rem;
+  transition: color 0.5s;
 }
 
+//
+//
+// MOMENTSBACKGROUND
+//
+//
+
+.momentsBackground::before {
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: opacity 0.5s;
+}
+
+.momentsBackground p {
+  color: white;
+  transition: color 0.5s;
+}
+
+.momentsBackground a {
+  color: white;
+  transition: color 0.5s;
+}
+
+//
+//
+// WOMENSBACKGROUND
+//
+//
+
 .womenBackground::before {
-  background: url("/women_main_button.jpg");
-  opacity: 0.75;
-  transition: background, opacity 0.5s 0.5s;
+  background: url("/women_main_button.png");
+  opacity: 1;
   content: "";
   background-size: cover;
   position: absolute;
@@ -69,4 +98,17 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: background, opacity 0.5s;
+}
+
+.womenBackground p {
+  color: white;
+  transition: color 0.5s;
+}
+
+.womenBackground a {
+  color: white;
+  transition: color 0.5s;
 }
