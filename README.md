@@ -1,4 +1,4 @@
-# Project pYoure
+# pYOUre Photography
 
 ## Product Outline
 
