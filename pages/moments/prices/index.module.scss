@@ -1,0 +1,9 @@
+.deckContainer {
+  margin: 10% 5%;
+  @media (min-width: 480px) {
+    margin: 5% 8%;
+  }
+  @media (min-width: 1024px) {
+    margin: 2% 15%;
+  }
+}
