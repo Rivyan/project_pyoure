@@ -1,6 +1,6 @@
 # pYOUre Photography
 
-![moments_sample_img](https://imgur.com/zg4iObf)
+![moments_sample_img](https://i.imgur.com/zg4iObf.jpg)
 
 ## Product Outline
 
