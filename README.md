@@ -2,8 +2,12 @@
 
 ## Product Outline
 
-In this project I am building a portfolio site for a client. The main theme is photography, showcasing some of her work.
+Portfolio website for a client, who is a professional photographer. The client needs 2 main part on the website, one for photos about families and children, and the other one about females. 
 
-The main idea is to split the site into to different side: Moments for family style shooting and Women for lone female style shooting.
+## Tech used
 
-To achieve good SEO and optimization, I am going to use React.js with Next.js.
+For speed and SEO optimization reasons, the website will be built utilising Next.js, with a few popular libraries. The final product will be hosted on Amazon S3 with CloudFront CDN. 
+
+## Current/Known Issues
+
+
