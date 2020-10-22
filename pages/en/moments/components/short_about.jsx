@@ -15,7 +15,7 @@ export default function ShortAbout() {
             <Col xs={12} md={5} l={4} align="center">
               <Image
                 className={styles.aboutImage}
-                src="viki_about.jpg"
+                src="/viki_about.jpg"
                 alt="Markus Viktoria profil foto"
                 rounded
                 fluid

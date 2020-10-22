@@ -3,7 +3,7 @@ import Navigation from "./components/navbar";
 import Carousel from "./components/carousel";
 import ShortAbout from "./components/short_about";
 import Gallery from "./components/gallery";
-import { getImageFolderLength } from "../../lib/gallery_file_count";
+import { getImageFolderLength } from "../../../lib/gallery_file_count";
 import Footer from "./footer";
 
 export default function Index({ imagesCount }) {

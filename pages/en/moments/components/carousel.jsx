@@ -7,7 +7,7 @@ export default function IndexCarousel() {
       <div>
         <Carousel
           autoPlay={true}
-          interval={3000}
+          interval={5000}
           controls={false}
           fade={true}
           className={styles.carouselDiv}
@@ -15,35 +15,35 @@ export default function IndexCarousel() {
           <Carousel.Item>
             <img
               className={styles.carouselImage}
-              src="moments_carousel/carousel_img_1.png"
+              src="/moments_carousel/carousel_img_1.png"
               alt="first moments image"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className={styles.carouselImage}
-              src="moments_carousel/carousel_img_2.png"
+              src="/moments_carousel/carousel_img_2.png"
               alt="second moments image"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className={styles.carouselImage}
-              src="moments_carousel/carousel_img_3.png"
+              src="/moments_carousel/carousel_img_3.png"
               alt="third moments image"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className={styles.carouselImage}
-              src="moments_carousel/carousel_img_4.png"
+              src="/moments_carousel/carousel_img_4.png"
               alt="fourth moments image"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className={styles.carouselImage}
-              src="moments_carousel/carousel_img_5.png"
+              src="/moments_carousel/carousel_img_5.png"
               alt="fifth moments image"
             />
           </Carousel.Item>
