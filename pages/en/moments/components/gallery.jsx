@@ -27,7 +27,7 @@ export default function Gallery(props) {
             </Col>
           </Row>
           <Row xs={1} sm={2} md={2} lg={2} xl={3} align="center">
-            {[...Array(props.imagesCount)].map((e, i) => (
+            {[...Array(props.imagesCount - 1)].map((e, i) => (
               <GalleryImage
                 key={"/moments_gallery/gallery_img_" + (i + 1) + ".png"}
                 imageID={i + 1}

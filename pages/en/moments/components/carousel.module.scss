@@ -4,8 +4,8 @@
 
 .carouselImage {
   width: 100%;
-  @media (min-width: 40em) {
-    max-height: 100vh;
+  @media (min-width: 768px) {
+    max-height: 90vh;
     object-fit: cover;
   }
 }

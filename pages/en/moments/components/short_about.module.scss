@@ -1,6 +1,6 @@
 .aboutContainer {
   padding: 0% 5%;
-  @media (min-width: 40em) {
+  @media (min-width: 768px) {
     padding: 0% 15%;
   }
 }
@@ -12,9 +12,6 @@
 
 .aboutImage {
   max-width: 100%;
-  @media (min-width: 60em) {
-    max-width: 100%;
-  }
 }
 
 .aboutText {

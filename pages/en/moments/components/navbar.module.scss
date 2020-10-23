@@ -1,18 +1,14 @@
-// .navBar {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   z-index: 2;
-// }
+.navBar {
+  @media (min-width: 768px) {
+    height: 10vh;
+  }
+}
 
 .logo {
-  // font-family: "Yellowtail", cursive;
   font-family: "Pacifico", cursive;
   font-size: 2rem;
 }
 
 .middleLinks {
-  display: inline-block;
-  float: none;
-  color: white;
+  color: black;
 }

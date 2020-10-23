@@ -5,7 +5,7 @@ import styles from "./navbar.module.scss";
 export default function NavigationBar() {
   return (
     <>
-      <Navbar className={styles.navBar} collapseOnSelect expand="lg">
+      <Navbar className={styles.navBar} collapseOnSelect expand="md">
         <Link href="/en/moments" passHref>
           <Navbar.Brand className={styles.logo}>pYOUre Moments</Navbar.Brand>
         </Link>
