@@ -23,9 +23,9 @@ export default function Portfolio() {
     <div>
       <Navigation />
       <Container>
-        {/* Family photos */}
-        <Row>
-          <Col xs={12} md={8} className={styles.textContainer}>
+        <Row className={styles.portfolioRow}>
+          {/* Family photos */}
+          <Col xs={12} md={(6, { order: 1 })} className={styles.textContainer}>
             FAMILYLorem ipsum dolor sit amet, consectetur adipiscing elit.
             Curabitur tempus massa ut pulvinar congue. Curabitur mattis et
             ligula id scelerisque. Maecenas malesuada vel ligula eu cursus.
@@ -35,16 +35,20 @@ export default function Portfolio() {
             cursus arcu gravida mattis eu non orci. Fusce metus nisl, cursus non
             dapibus sit amet, molestie ac risus.
           </Col>
-          <Col xs={12} md={4} className={styles.carouselContainer}>
+          <Col
+            xs={12}
+            md={(6, { order: 2 })}
+            className={styles.carouselContainer}
+          >
             <SmallCarousel
               className={styles.smallCarousel}
               images={familyPhotos}
             />
           </Col>
         </Row>
-        <Row>
+        <Row className={styles.portfolioRow}>
           {/* Pregnancy photos */}
-          <Col xs={12} md={8} className={styles.textContainer}>
+          <Col xs={12} md={(6, { order: 2 })} className={styles.textContainer}>
             PREGNANTLorem ipsum dolor sit amet, consectetur adipiscing elit.
             Curabitur tempus massa ut pulvinar congue. Curabitur mattis et
             ligula id scelerisque. Maecenas malesuada vel ligula eu cursus.
@@ -54,7 +58,11 @@ export default function Portfolio() {
             cursus arcu gravida mattis eu non orci. Fusce metus nisl, cursus non
             dapibus sit amet, molestie ac risus.
           </Col>
-          <Col xs={12} md={4} className={styles.carouselContainer}>
+          <Col
+            xs={12}
+            md={(6, { order: 1 })}
+            className={styles.carouselContainer}
+          >
             <SmallCarousel
               className={styles.smallCarousel}
               images={pregnantPhotos}
