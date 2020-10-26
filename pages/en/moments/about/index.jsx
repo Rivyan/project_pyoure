@@ -10,7 +10,16 @@ export default function About() {
       <Container fluid className={styles.aboutContainer}>
         <Row>
           <Col>
-            <h1 className={styles.aboutTitle}>About welcome</h1>
+            <p className={styles.aboutTitle}>
+              "Azért fényképezünk, mert nem tudunk beletörődni, hogy minden
+              elmúlik, hogy lehetetlen megismételni egy már átélt pillanatot.
+              Egyhangú háborút vívunk saját halálunk fenyegető réme ellen, és az
+              idő ellen, amely másfajta és kevésbé értékes lényekké: felnőttekké
+              változtatja a gyereket. Azért fényképezünk, mert tudjuk magunkról,
+              hogy felejtünk. Elfelejtjük a hetet, a napot, az órát; elfelejtjük
+              azt a pillanatot, amikor a legboldogabbak voltunk." (Michelle
+              Richmond)
+            </p>
           </Col>
         </Row>
         <Row>

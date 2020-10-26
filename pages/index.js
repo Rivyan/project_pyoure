@@ -45,14 +45,14 @@ export default function Home() {
           <Col className={styles.buttonCol}>
             <Forwarding_image
               hoverFunction={momentsHover}
-              address="./moments"
+              address="./en/moments"
               name="Moments"
             />
           </Col>
           <Col className={styles.buttonCol}>
             <Forwarding_image
               hoverFunction={womenHover}
-              address="./women"
+              address="./en/women"
               name="Women"
             />
           </Col>
