@@ -1,3 +1,18 @@
 .contactContainer {
-  margin: 10% 0%;
+  margin: 10% auto;
+}
+
+.contactInfo {
+  margin: 5% auto 20%;
+  @media (min-width: 768px) {
+    margin: 0%;
+  }
+}
+
+.contactInfo h1 {
+  font-size: 2em;
+  margin-bottom: 15%;
+  @media (min-width: 768px) {
+    margin-bottom: 7%;
+  }
 }
