@@ -24,6 +24,10 @@ export default function About() {
           </Col>
         </Row>
         <Row>
+          <h1 className={styles.aboutTitle}>
+            Hello there, my name is Viktoria Markus and I am a family, children
+            and women photographer.
+          </h1>
           <Col xs={12} s={8} md={4} l={3} align="center">
             <img
               className={styles.profilePhoto}
@@ -33,10 +37,6 @@ export default function About() {
           </Col>
           <Col>
             <div className={styles.aboutText}>
-              <h1>
-                Hello there, my name is Viktoria Markus and I am a family,
-                children and women photographer.
-              </h1>
               <p>
                 Family and children photography came to my life naturally. After
                 my daughters were born, I wanted to take better and better
