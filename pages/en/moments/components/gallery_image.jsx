@@ -3,7 +3,7 @@ import styles from "./gallery_image.module.scss";
 
 export default function GalleryImage(props) {
   return (
-    <Col>
+    <Col className={styles.imageCol}>
       <div className={styles.smallImgZoomContainer}>
         <img
           onClick={() => {
