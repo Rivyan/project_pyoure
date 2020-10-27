@@ -1,9 +1,13 @@
 .footerDiv {
-  position: sticky;
-  margin: 5%;
-  margin-top: 15%;
+  margin: 15% auto;
+  padding: 0% 5%;
+  bottom: 0;
+  height: 2em;
+  left: 0;
+  position: relative;
+  width: 100%;
   @media (min-width: 768px) {
-    padding: 5% 15% 0%;
+    margin: 5% 15;
   }
 }
 

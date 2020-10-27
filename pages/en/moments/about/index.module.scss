@@ -5,26 +5,27 @@
     padding: 0% 8%;
   }
   @media (min-width: 992px) {
-    // padding: 0% 15%;
+    padding: 0% 15%;
   }
 }
 
-.aboutTitle {
-  margin-bottom: 0.5em;
+.aboutQuote {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-style: italic;
 }
 
 .profilePhoto {
   width: 100%;
-  margin-bottom: 1em;
+  margin-bottom: 50px;
 }
 
-.aboutText {
+.aboutText h1 {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
   @media (min-width: 768px) {
-    // padding-right: 2em;
-    margin-left: 1em;
   }
   @media (min-width: 992px) {
-    // padding-right: 10em;
     margin-left: 1em;
   }
 }
