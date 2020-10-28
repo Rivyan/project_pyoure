@@ -15,17 +15,17 @@ export default function Portfolio() {
   const pregnantPhotos = [
     "/moments_gallery/gallery_img_3.png",
     "/moments_gallery/gallery_img_5.png",
-    "/moments_gallery/gallery_img_8.png",
+    "/moments_gallery/gallery_img_4.png",
     "/moments_gallery/gallery_img_6.png",
   ];
 
   return (
     <div>
       <Navigation />
-      <Container>
+      <Container className={styles.portfolioContainer} fluid>
         <Row className={styles.portfolioRow}>
           {/* Family photos */}
-          <Col xs={12} md={(6, { order: 1 })} className={styles.textContainer}>
+          <Col xs={12} lg={(6, { order: 1 })} className={styles.textContainer}>
             FAMILYLorem ipsum dolor sit amet, consectetur adipiscing elit.
             Curabitur tempus massa ut pulvinar congue. Curabitur mattis et
             ligula id scelerisque. Maecenas malesuada vel ligula eu cursus.
@@ -37,7 +37,7 @@ export default function Portfolio() {
           </Col>
           <Col
             xs={12}
-            md={(6, { order: 2 })}
+            lg={(6, { order: 2 })}
             className={styles.carouselContainer}
           >
             <SmallCarousel
@@ -48,7 +48,7 @@ export default function Portfolio() {
         </Row>
         <Row className={styles.portfolioRow}>
           {/* Pregnancy photos */}
-          <Col xs={12} md={(6, { order: 2 })} className={styles.textContainer}>
+          <Col xs={12} lg={(6, { order: 2 })} className={styles.textContainer}>
             PREGNANTLorem ipsum dolor sit amet, consectetur adipiscing elit.
             Curabitur tempus massa ut pulvinar congue. Curabitur mattis et
             ligula id scelerisque. Maecenas malesuada vel ligula eu cursus.
@@ -60,7 +60,7 @@ export default function Portfolio() {
           </Col>
           <Col
             xs={12}
-            md={(6, { order: 1 })}
+            lg={(6, { order: 1 })}
             className={styles.carouselContainer}
           >
             <SmallCarousel

@@ -1,4 +1,4 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Image } from "react-bootstrap";
 import Navigation from "../components/navbar";
 import styles from "./index.module.scss";
 import Footer from "../footer";
@@ -25,14 +25,16 @@ export default function About() {
         </Row>
         <Row>
           <h1 className={styles.aboutTitle}>
-            Hello there, my name is Viktoria Markus and I am a family, children
-            and women photographer.
+            Hello there, my name is Viktoria Markus, a family, children and
+            women photographer.
           </h1>
           <Col xs={12} s={8} md={4} l={3} align="center">
-            <img
+            <Image
               className={styles.profilePhoto}
               src="/viki_about.jpg"
               alt="Viki profile photo"
+              rounded
+              fluid
             />
           </Col>
           <Col>
