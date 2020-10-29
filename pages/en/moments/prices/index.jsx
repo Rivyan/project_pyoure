@@ -13,10 +13,10 @@ export default function Prices() {
           cardBody={
             <>
               <ul>
-                <li> 15 retouched photo: 40.000 Huf</li>
-                <li> 20 retouched photo: 45.000 Huf</li>
-                <li> 25 retouched photo: 50.000 Huf</li>
-                <li> Any extra photo: 2.500 Huf/image</li>
+                <li> 15 retouched photo: 40.000 HUF</li>
+                <li> 20 retouched photo: 45.000 HUF</li>
+                <li> 25 retouched photo: 50.000 HUF</li>
+                <li> Any extra photo: 2.500 HUF/image</li>
               </ul>
             </>
           }
@@ -27,11 +27,11 @@ export default function Prices() {
           cardBody={
             <>
               <ul>
-                <li> 15 retouched photo: 55.000 Huf</li>
-                <li> 20 retouched photo: 60.000 Huf</li>
-                <li> 25 retouched photo: 65.000 Huf</li>
-                <li> Any extra photo: 2.500 Huf/image</li>
-                <li> Makeup Artist: 15.0000 Huf</li>
+                <li> 15 retouched photo: 55.000 HUF</li>
+                <li> 20 retouched photo: 60.000 HUF</li>
+                <li> 25 retouched photo: 65.000 HUF</li>
+                <li> Any extra photo: 2.500 HUF/image</li>
+                <li> Makeup Artist: 15.0000 HUF</li>
               </ul>
               <p> The above prices include the renting of a studio</p>
             </>
@@ -45,11 +45,11 @@ export default function Prices() {
           cardBody={
             <>
               <ul>
-                <li> 10 retouched photo: 40.000 Huf</li>
-                <li> 15 retouched photo: 45.000 Huf</li>
-                <li> 20 retouched photo: 50.000 Huf</li>
-                <li> Any extra photo: 2.500 Huf/image</li>
-                <li> Makeup Artist: 15.0000 Huf</li>
+                <li> 10 retouched photo: 40.000 HUF</li>
+                <li> 15 retouched photo: 45.000 HUF</li>
+                <li> 20 retouched photo: 50.000 HUF</li>
+                <li> Any extra photo: 2.500 HUF/image</li>
+                <li> Makeup Artist: 15.0000 HUF</li>
               </ul>
             </>
           }
@@ -60,11 +60,11 @@ export default function Prices() {
           cardBody={
             <>
               <ul>
-                <li> 10 retouched photo: 55.000 Huf</li>
-                <li> 15 retouched photo: 60.000 Huf</li>
-                <li> 20 retouched photo: 65.000 Huf</li>
-                <li> Any extra photo: 2.500 Huf/image</li>
-                <li> Makeup Artist: 15.0000 Huf</li>
+                <li> 10 retouched photo: 55.000 HUF</li>
+                <li> 15 retouched photo: 60.000 HUF</li>
+                <li> 20 retouched photo: 65.000 HUF</li>
+                <li> Any extra photo: 2.500 HUF/image</li>
+                <li> Makeup Artist: 15.0000 HUF</li>
               </ul>
               <p> The above prices include the renting of a studio</p>
             </>
