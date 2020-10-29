@@ -1,13 +1,11 @@
 import { CardDeck } from "react-bootstrap";
-import Navigation from "../components/navbar";
-import Footer from "../footer";
+import Layout from "../layout";
 import PriceCard from "./components/price_card";
 import styles from "./index.module.scss";
 
 export default function Prices() {
   return (
-    <div>
-      <Navigation />
+    <Layout>
       <CardDeck className={styles.deckContainer}>
         <PriceCard
           imgSrc="/moments_gallery/gallery_img_10.png"
@@ -73,7 +71,6 @@ export default function Prices() {
           }
         />
       </CardDeck>
-      <Footer />
-    </div>
+    </Layout>
   );
 }

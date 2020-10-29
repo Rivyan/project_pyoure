@@ -1,8 +1,7 @@
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
-import Navigation from "../components/navbar";
-import styles from "./index.module.scss";
-import Footer from "../footer";
 import emailjs from "emailjs-com";
+import Layout from "../layout";
+import styles from "./index.module.scss";
 
 export default function Contact(props) {
   const [contact, setContact] = React.useState({
@@ -40,8 +39,7 @@ export default function Contact(props) {
   };
 
   return (
-    <div>
-      <Navigation />
+    <Layout>
       <Container className={styles.contactContainer}>
         <Row>
           <Col className={styles.contactInfo} xs={12} md={6}>
@@ -96,8 +94,7 @@ export default function Contact(props) {
           </Col>
         </Row>
       </Container>
-      <Footer />
-    </div>
+    </Layout>
   );
 }
 

@@ -1,12 +1,10 @@
 import { Col, Container, Row, Image } from "react-bootstrap";
-import Navigation from "../components/navbar";
+import Layout from "../layout";
 import styles from "./index.module.scss";
-import Footer from "../footer";
 
 export default function About() {
   return (
-    <div>
-      <Navigation />
+    <Layout>
       <Container fluid className={styles.aboutContainer}>
         <Row>
           <Col>
@@ -72,7 +70,6 @@ export default function About() {
           </Col>
         </Row>
       </Container>
-      <Footer />
-    </div>
+    </Layout>
   );
 }
