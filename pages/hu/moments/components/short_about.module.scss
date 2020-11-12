@@ -10,11 +10,29 @@
   padding-bottom: 0.5em;
 }
 
-.aboutImage {
-  max-width: 100%;
+.aboutQuote {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  font-style: italic;
 }
 
-.aboutText {
-  font-size: 1.2rem;
-  padding-top: 1rem;
+.aboutTitle {
+  padding: 1% 1% 5%;
+  font-size: 2em;
+  position: block;
+}
+
+.profilePhoto {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.aboutText h1 {
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  @media (min-width: 768px) {
+  }
+  @media (min-width: 992px) {
+    margin-left: 1em;
+  }
 }

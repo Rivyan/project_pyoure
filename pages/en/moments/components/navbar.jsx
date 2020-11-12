@@ -12,9 +12,6 @@ export default function NavigationBar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="m-auto">
-            <Link href="/en/moments/about" passHref>
-              <Nav.Link>About</Nav.Link>
-            </Link>
             <Link href="/en/moments/portfolio" passHref>
               <Nav.Link>Portfolio</Nav.Link>
             </Link>
