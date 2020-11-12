@@ -1,0 +1,15 @@
+.deckContainer {
+  margin: 10% 5%;
+  @media (min-width: 480px) {
+    margin: 8% 8%;
+  }
+  @media (min-width: 1024px) {
+    margin: 6% 15%;
+  }
+}
+
+.cardList li {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  list-style-type: square;
+}

@@ -9,13 +9,11 @@ import { motion } from "framer-motion";
 export default function Index({ imagesCount }) {
   return (
     <Layout>
-      <motion.div exit={{ opacity: 0 }} animate={{ opacity: 1 }}>
-        <Carousel />
-        <hr className={styles.momentsHr} />
-        <ShortAbout />
-        <hr className={styles.momentsHr} />
-        <Gallery imagesCount={imagesCount} />
-      </motion.div>
+      <Carousel />
+      <hr className={styles.momentsHr} />
+      <ShortAbout />
+      <hr className={styles.momentsHr} />
+      <Gallery imagesCount={imagesCount} />
     </Layout>
   );
 }

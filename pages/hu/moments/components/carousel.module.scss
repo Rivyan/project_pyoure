@@ -1,0 +1,11 @@
+.carouselDiv {
+  margin: 0% 0%;
+}
+
+.carouselImage {
+  width: 100%;
+  @media (min-width: 768px) {
+    max-height: 90vh;
+    object-fit: cover;
+  }
+}

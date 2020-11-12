@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div className={divClass}>
       <Header>
-        <title>pYOUre Photography</title>
+        <title>pYOUre photography</title>
       </Header>
       {/* Main container for the title and the buttons for the sub sites */}
       <Container fluid>

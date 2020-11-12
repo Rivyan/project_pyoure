@@ -6,31 +6,34 @@ export default function NavigationBar() {
   return (
     <>
       <Navbar className={styles.navBar} collapseOnSelect expand="md">
-        <Link href="/en/moments" passHref>
+        <Link href="/hu/moments" passHref>
           <Navbar.Brand className={styles.logo}>pYOUre moments</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="m-auto">
-            <Link href="/en/moments/about" passHref>
-              <Nav.Link>About</Nav.Link>
+            <Link href="/hu/moments/about" passHref>
+              <Nav.Link>Rólam</Nav.Link>
             </Link>
-            <Link href="/en/moments/portfolio" passHref>
-              <Nav.Link>Portfolio</Nav.Link>
+            <Link href="/hu/moments/portfolio" passHref>
+              <Nav.Link>Portfólió</Nav.Link>
             </Link>
-            <Link href="/en/moments/prices" passHref>
-              <Nav.Link>Prices</Nav.Link>
+            <Link href="/hu/moments/prices" passHref>
+              <Nav.Link>Árak</Nav.Link>
             </Link>
-            <Link href="/en/moments/contact" passHref>
-              <Nav.Link>Contact</Nav.Link>
+            <Link href="/hu/moments/contact" passHref>
+              <Nav.Link>Kapcsolat</Nav.Link>
+            </Link>
+            <Link href="/hu/moments/blog" passHref>
+              <Nav.Link>Blog</Nav.Link>
             </Link>
           </Nav>
           <Nav className="m-right">
-            <Link href="/en/women" passHref>
+            <Link href="/hu/women" passHref>
               <Nav.Link>Women</Nav.Link>
             </Link>
-            <Link href="/hu/moments" passHref>
-              <Nav.Link>HU</Nav.Link>
+            <Link href="/en/moments" passHref>
+              <Nav.Link>ENG</Nav.Link>
             </Link>
           </Nav>
         </Navbar.Collapse>

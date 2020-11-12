@@ -1,0 +1,28 @@
+.portfolioContainer {
+  @media (min-width: 768px) {
+    margin: auto;
+    padding: 0 15%;
+  }
+}
+
+.portfolioRow {
+  margin-top: 5%;
+}
+
+.textContainer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.textContainer h3 {
+  padding-bottom: 2rem;
+}
+
+.carouselContainer {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.smallCarousel {
+  margin: 5%;
+}

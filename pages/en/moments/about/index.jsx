@@ -17,7 +17,7 @@ export default function About() {
               We will forget the week, the day, the hour. We will forget when we
               were happiest. We take pictures out of pride, a desire to have the
               best of ourselve preserved. We fear that we will die and others
-              will not know we lived.”
+              will not know we lived.” (Michelle Richmond)
             </p>
           </Col>
         </Row>

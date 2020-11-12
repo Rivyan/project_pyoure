@@ -1,0 +1,17 @@
+.footerDiv {
+  margin: 15% auto;
+  padding: 0% 5%;
+  bottom: 0;
+  height: 2em;
+  left: 0;
+  position: relative;
+  width: 100%;
+  @media (min-width: 768px) {
+    margin: 5% 15;
+  }
+}
+
+.footerText {
+  font-size: 0.8em;
+  color: gray;
+}
