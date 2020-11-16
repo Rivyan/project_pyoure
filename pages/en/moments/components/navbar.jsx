@@ -21,13 +21,18 @@ export default function NavigationBar() {
             <Link href="/en/moments/contact" passHref>
               <Nav.Link>Contact</Nav.Link>
             </Link>
+            <Link href="/en/moments/blog" passHref>
+              <Nav.Link>Blog</Nav.Link>
+            </Link>
           </Nav>
           <Nav className="m-right">
             <Link href="/en/women" passHref>
               <Nav.Link>Women</Nav.Link>
             </Link>
             <Link href="/hu/moments" passHref>
-              <Nav.Link>HU</Nav.Link>
+              <Nav.Link>
+                <img className={styles.flagIcon} src="/hu_flag.jpeg" />
+              </Nav.Link>
             </Link>
           </Nav>
         </Navbar.Collapse>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Image } from "react-bootstrap";
 import styles from "./navbar.module.scss";
 
 export default function NavigationBar() {
@@ -30,7 +30,9 @@ export default function NavigationBar() {
               <Nav.Link>Women</Nav.Link>
             </Link>
             <Link href="/en/moments" passHref>
-              <Nav.Link>ENG</Nav.Link>
+              <Nav.Link>
+                <img className={styles.flagIcon} src="/UK_flag.png" />
+              </Nav.Link>
             </Link>
           </Nav>
         </Navbar.Collapse>

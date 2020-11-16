@@ -29,7 +29,7 @@ export default function About() {
           Hello there, my name is Viktoria Markus, a family, children and women
           photographer.
         </h1>
-        <Col xs={12} md={12} lg={5} align="center">
+        <Col xs={12} md={12} lg={4} align="center">
           <Image
             className={styles.profilePhoto}
             src="/viki_about.jpg"
