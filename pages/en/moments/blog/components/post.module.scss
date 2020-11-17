@@ -1,27 +1,43 @@
-.container {
-  cursor: pointer;
-  height: 453px;
-  margin-bottom: 48px;
+header {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #949499;
 }
-a {
-  border-bottom: none;
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
-a:hover {
-  border-bottom: none;
+/*
+The section :global() selector is necessary to target the content
+that will be rendered by the Markdown component.
+*/
+section :global(h1) {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
-.text {
-  margin-top: -160px;
-  padding: 24px;
-  position: absolute;
+section :global(h2) {
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
-h2 {
-  color: white;
-  font-size: 24px;
-  margin-bottom: 0;
+section :global(p) {
+  line-height: 1.75rem;
+  margin: 2rem 0;
 }
-h4 {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 16px;
-  font-weight: 500;
-  margin-top: 8px;
+section :global(img) {
+  max-width: 100%;
+}
+section :global(blockquote) {
+  border-left: 0.5rem solid #949499;
+  margin-left: 0;
+  padding: 0 2rem;
+  color: #646469;
+}
+section :global(li) {
+  margin: 1rem 0;
+  line-height: 1.5rem;
+}
+section :global(hr) {
+  border: none;
+  background: #949499;
+  height: 1px;
 }

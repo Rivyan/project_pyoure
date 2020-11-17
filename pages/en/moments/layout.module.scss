@@ -3,11 +3,6 @@
   overflow: hidden;
 }
 
-.momentsDiv {
-  position: relative;
-  z-index: 2;
-}
-
 .momentsWrap:before {
   content: " ";
   display: block;
@@ -24,3 +19,12 @@
   // Women bckground
   // background: #4d4545;
 }
+
+.momentsDiv {
+  position: relative;
+  z-index: 2;
+}
+
+// .contentDiv {
+//   margin: 10% 15%;
+// }

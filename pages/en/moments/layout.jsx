@@ -7,7 +7,7 @@ export default function Layout({ children }) {
     <div className={styles.momentsWrap}>
       <div className={styles.momentsDiv}>
         <Navbar />
-        {children}
+        <div className={styles.contentDiv}>{children}</div>
         <Footer />
       </div>
     </div>
